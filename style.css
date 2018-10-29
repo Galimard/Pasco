@@ -203,12 +203,13 @@ html, body {
 	top: 0;
 	left: 0;
 	background: url(img/bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
 	width: 100%;
-	height: 800px;
 }
 
 .text-slider {
-	padding: 0 395px;
+	padding: 215px 395px 70px;
 	text-align: center;
 }
 
@@ -281,6 +282,8 @@ html, body {
 }
 
 .author__name {
+	display: block;
+	text-decoration: none;
 	font-family: Montserrat, Arial, sans-serif;
 	color:  #ffffff;
 	font-size: 1.1rem;
@@ -289,10 +292,43 @@ html, body {
 	margin: 20px 0 0;
 }
 
+.author__name:hover,
+.author__name:active {
+	text-decoration: underline;
+}
+
 .author__date {
-	font-family: Montserrat;
+	font-family: Montserrat, Arial, sans-serif;
 	color:  rgba(255, 255, 255, 0.5);
 	font-size: 1rem;
 	font-weight: 400;
 	margin: 15px 0 0;
+}
+
+.comments {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 230px;
+    margin: 35px auto 0;
+}
+
+.comments__text {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  rgba(255, 255, 255, 0.5);
+	font-size: 1rem;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.comments__icon {
+	padding-right: 10px;
+}
+
+.comments__text:hover,
+.comments__text:active {
+	text-decoration: underline;
 }
