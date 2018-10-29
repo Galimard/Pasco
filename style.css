@@ -117,11 +117,15 @@ html, body {
 
 .logo {
 	font-family: Montserrat, Arial, sans-serif;
-	color:  #ffffff;
 	font-size: 2rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+}
+
+.logo__link {
+	text-decoration: none;
+	color:  #ffffff;
 }
 
 .menu-list {
@@ -265,4 +269,30 @@ html, body {
 
 .button--blue:active {
 	transform: translate(0, 2px);
+}
+
+.author {
+	margin-top: 80px;
+}
+
+.author__img {
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.author__name {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  #ffffff;
+	font-size: 1.1rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 20px 0 0;
+}
+
+.author__date {
+	font-family: Montserrat;
+	color:  rgba(255, 255, 255, 0.5);
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 15px 0 0;
 }
