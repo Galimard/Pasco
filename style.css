@@ -158,12 +158,14 @@ html, body {
 	border-bottom: 4px solid #ff4081;
 }
 
-.menu-list__link:hover .menu-list__arrow {
+/*.menu-list__link:hover .menu-list__arrow {
+	padding-top: 10px;
+	padding-left: ;
 	-webkit-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
 	transform: rotate(-90deg);	
-}
+}*/
 
 .menu-list__link:active .menu-list__arrow {
 	-webkit-transform: rotate(-90deg);
@@ -231,6 +233,7 @@ html, body {
 }
 
 .button {
+	display: block;
 	font-family: Montserrat, Arial, sans-serif;
 	color:  #ffffff;	
 	font-size: 2rem;
@@ -238,6 +241,7 @@ html, body {
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 15px 30px;
+	width: 170px;
 }
 
 .button--blue {
@@ -246,4 +250,8 @@ html, body {
 
 .button--circle {
 	border-radius: 50px;
+}
+
+.text-slider__button--margin {
+	margin: 40px auto 0;
 }
