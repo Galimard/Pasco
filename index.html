@@ -3,42 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Pasco</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <div class="top-menu">
-        <div class="template-width">
-            <div class="socials">
-                социальные иконки
-            </div>
-            <div class="user">
-                <a href="#">Sign in</a>
-                <select name="" id="">
-                    <option value="eng"></option>
-                    <option value="рус"></option>
-                </select>
-            </div>
-            <div class="logo">Pasco</div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Components</a></li>
-                <li><a href="#">Features</a></li>
-            </ul>
-            <div class="user-icons">
-                <div class="search">search</div>wishlist cart
+    <div class="menu-wrap">        
+        <div class="top-menu">
+            <div class="template-width top-menu--flex">
+	           	<div class="top-menu__socials top-menu--flex">
+	                <a href="#"><i class="fab fa-facebook-f top-menu__socials--color top-menu__socials--hover"></i></a>
+	                <a href="#"><i class="fab fa-twitter top-menu__socials--color top-menu__socials--hover"></i></a>
+	                <a href="#"><i class="fab fa-pinterest-p top-menu__socials--color top-menu__socials--hover"></i></a>
+	                <a href="#"><i class="fab fa-google-plus-g top-menu__socials--color top-menu__socials--hover"></i></a>
+	                <a href="#"><i class="fab fa-behance top-menu__socials--color top-menu__socials--hover"></i></a>
+	                <a href="#"><i class="fab fa-dribbble top-menu__socials--color top-menu__socials--hover"></i></a>
+		        </div>
+		        <div class="top-menu__user top-menu--flex">
+		            <div class="top-menu__user-border top-menu--flex">
+		            	<a href="#" class="top-menu__sign-in"><i class="fas fa-user-circle"></i>Sign in</a>
+		            </div>
+		            <div class="top-menu--flex">
+		            	<i class="fas fa-globe"></i>
+			            <select name="" id="" class="top-menu__language">
+			                <option selected>eng</option>
+			                <option>рус</option>		                
+			            </select>
+			            <i class="fas fa-angle-down top-menu__arrow"></i>
+		            </div>
+		        </div>
+		    </div>    
+        </div>
+        <div class="menu">
+            <div class="template-width top-menu--flex">
+	            <div class="logo">Pasco</div>
+	            <ul class="menu-list top-menu--flex">
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Home<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Portfolio<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Blog<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Pages<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Shop<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Components<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	                <li class="menu-list__item"><a href="#" class="menu-list__link">Features<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+	            </ul>
+	            <div class="user-icons">
+	                <a href="#"><i class="fas fa-search user-icons__border user-icons--padding user-icons__item"></i></a>
+	                <a href="#"><i class="far fa-heart user-icons__border user-icons--padding user-icons__item"></i></a>
+	                <a href="#"><i class="fas fa-shopping-cart user-icons--padding user-icons__item"></i></a>
+	            </div>
             </div>
         </div>
     </div>
     <div class="slider">
         <div class="text-slider">
-            <h4 class="text-slider__title-add">Inspiration</h4>
-            <h1 class="text-slider__title-main">5 Ways milllennials can start building their future today</h1>
-            <a href="#">Read more</a>
+            <h4 class="text-slider__title-add text-slider__title-add--margin">Inspiration</h4>
+            <h1 class="text-slider__title-main text-slider__title-main--margin">5 Ways milllennials can start building their future today</h1>
+            <a href="#" class="button button--blue button--circle">Read more</a>
             <div class="author">
                 <img src="" alt="">
                 <span>Henry Little</span>

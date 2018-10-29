@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Open+Sans:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+.menu-wrap {
+	position: relative;
+	z-index: 100;
+}
+
+.template-width {
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto; 
+}
+
+.top-menu {
+	background-color:  #191919;
+}
+
+.top-menu--flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.top-menu__socials {
+	width: 250px;
+}
+
+.top-menu__socials--color {
+	color: rgba(255, 255, 255, 0.5);
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.top-menu__socials--hover:hover {
+	color: #ffffff;
+}
+
+.top-menu__user {
+	padding: 15px 0;
+}
+
+.top-menu__user-border {
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.top-menu__sign-in {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-right: 10px;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.top-menu__sign-in:hover {
+	color: #ffffff;
+}
+
+.fa-user-circle {
+	padding-right: 10px;
+}
+
+.top-menu__language {
+	width: 50px;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: Montserrat, Arial, sans-serif;
+	color:  rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background: #191919;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+	outline: none;
+}
+
+.top-menu__language:hover {
+	cursor: pointer;
+	color: #ffffff;
+} 
+
+.fa-globe {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 1.5rem;
+	padding: 0 10px;
+}
+
+.top-menu__arrow {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 1.5rem;
+	margin-left: -10px;
+}
+
+.menu {
+	padding-top: 25px;
+}
+
+.logo {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  #ffffff;
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.menu-list {
+	width: 800px;
+
+}
+
+.menu-list__item {
+	list-style: none;
+}
+
+.menu-list__link {
+	padding-bottom: 25px;
+	font-family: Montserrat, Arial, sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu-list__arrow {
+	padding-left: 10px;
+	-webkit-transition: rotate 0.3s;
+	-o-transition: rotate 0.3s;
+	transition: rotate 0.3s;
+}
+
+.menu-list__link:hover {
+	border-bottom: 4px solid #ff4081;
+}
+
+.menu-list__link:active {
+	border-bottom: 4px solid #ff4081;
+}
+
+.menu-list__link:hover .menu-list__arrow {
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);	
+}
+
+.menu-list__link:active .menu-list__arrow {
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);	
+}
+
+.user-icons__item {
+	color: #ffffff;
+	font-size: 1.5rem;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.user-icons__item:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.user-icons__border {
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.user-icons--padding {
+	padding: 0 10px;
+}
+
+.slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(img/bg.jpg);
+	width: 100%;
+	height: 800px;
+}
+
+.text-slider {
+	padding: 0 395px;
+	text-align: center;
+}
+
+.text-slider__title-add {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  rgba(255, 255, 255, 0.5);
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.text-slider__title-add--margin {
+	margin-top: 215px;
+}
+
+.text-slider__title-main {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  #ffffff;
+	font-size: 3.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.text-slider__title-main--margin {
+	margin-top: 30px;
+}
+
+.button {
+	font-family: Montserrat, Arial, sans-serif;
+	color:  #ffffff;	
+	font-size: 2rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 30px;
+}
+
+.button--blue {
+	background-color:  #303f9f;
+}
+
+.button--circle {
+	border-radius: 50px;
+}
