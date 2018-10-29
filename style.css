@@ -246,6 +246,9 @@ html, body {
 
 .button--blue {
 	background-color:  #303f9f;
+	-webkit-transition: background-color 0.3s;
+	-o-transition: background-color 0.3s;
+	transition: background-color 0.3s;
 }
 
 .button--circle {
@@ -254,4 +257,12 @@ html, body {
 
 .text-slider__button--margin {
 	margin: 40px auto 0;
+}
+
+.button--blue:hover {
+	background-color:  #4e5fc9;
+}
+
+.button--blue:active {
+	transform: translate(0, 2px);
 }
