@@ -94,10 +94,9 @@ html, body {
 	outline: none;
 }
 
-.top-menu__language:hover {
-	cursor: pointer;
-	color: #ffffff;
-} 
+.top-menu__language::before {
+	content: url(img/language.png);
+}
 
 .fa-globe {
 	color: rgba(255, 255, 255, 0.5);
@@ -110,6 +109,12 @@ html, body {
 	font-size: 1.5rem;
 	margin-left: -10px;
 }
+
+.top-menu__language:hover,
+.top-menu__select-wrap:hover {
+	cursor: pointer;
+	color: #ffffff;
+} 
 
 .menu {
 	padding-top: 25px;
@@ -202,12 +207,30 @@ html, body {
 	width: 100%;
 }
 
+.text-slider {
+	position: relative;
+	padding: 215px 390px 70px;
+	text-align: center;
+}
+
+.slider__link {
+	display: block;
+}
+
 .slider__link--left {
-	margin-left: 5%;
+	position: absolute;
+	top: 0;
+	left: 0;	    
+	height: 100%;
+    width: 200px;
 }
 
 .slider__link--right {
-	margin-right: 5%;
+	position: absolute;
+	top: 0;
+	right: 0;	    
+	height: 100%;
+    width: 200px;
 }
 
 .slider__arrow {
@@ -218,13 +241,9 @@ html, body {
 	transition: color 0.3s;
 }
 
-.slider__arrow:hover {
+.slider__link:hover .slider__arrow,
+.slider__link:active .slider__arrow {
 	color: rgba(255, 255, 255, 0.5);
-}
-
-.text-slider {
-	padding: 215px 250px 70px;
-	text-align: center;
 }
 
 .text-slider__title-add {
