@@ -135,6 +135,10 @@ html, body {
 
 .menu-list__item {
 	list-style: none;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .menu-list__link {
@@ -149,33 +153,22 @@ html, body {
 
 .menu-list__arrow {
 	padding-left: 10px;
-	-webkit-transition: rotate 0.3s;
-	-o-transition: rotate 0.3s;
-	transition: rotate 0.3s;
 }
 
-.menu-list__link:hover {
-	border-bottom: 4px solid #ff4081;
-}
-
+.menu-list__link:hover,
 .menu-list__link:active {
 	border-bottom: 4px solid #ff4081;
 }
 
-/*.menu-list__link:hover .menu-list__arrow {
-	padding-top: 10px;
-	padding-left: ;
-	-webkit-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	transform: rotate(-90deg);	
-}*/
-
+.menu-list__link:hover .menu-list__arrow,
 .menu-list__link:active .menu-list__arrow {
-	-webkit-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	transform: rotate(-90deg);	
+	-webkit-transform: rotate(-90deg) translateX(-4px);
+	-ms-transform: rotate(-90deg) translateX(-4px);
+	-o-transform: rotate(-90deg) translateX(-4px);
+	transform: rotate(-90deg) translateX(-4px);	
+	-webkit-transition: transform 0.3s;
+	-o-transition: transform 0.3s;
+	transition: transform 0.3s;
 }
 
 .user-icons__item {
@@ -186,7 +179,8 @@ html, body {
 	transition: color 0.3s;
 }
 
-.user-icons__item:hover {
+.user-icons__item:hover,
+.user-icons__item:active {
 	color: rgba(255, 255, 255, 0.5);
 }
 
@@ -208,8 +202,28 @@ html, body {
 	width: 100%;
 }
 
+.slider__link--left {
+	margin-left: 5%;
+}
+
+.slider__link--right {
+	margin-right: 5%;
+}
+
+.slider__arrow {
+	color: #ffffff;
+	font-size: 2.5rem;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.slider__arrow:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
 .text-slider {
-	padding: 215px 395px 70px;
+	padding: 215px 250px 70px;
 	text-align: center;
 }
 
@@ -219,10 +233,6 @@ html, body {
 	font-size: 2.5rem;
 	font-weight: 400;
 	text-transform: uppercase;
-}
-
-.text-slider__title-add--margin {
-	margin-top: 215px;
 }
 
 .text-slider__title-main {
