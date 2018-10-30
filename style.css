@@ -405,5 +405,54 @@ html, body {
 }
 
 .articles {
-    padding: 30px 0 40px;
+    padding: 30px 40px 40px 0;
+}
+
+.news-desc,
+.news__author {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.news-desc__title {
+    margin: 0 0 15px;
+    color: #000000;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.news-desc__text {
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news__author {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news__author--wrap {
+    margin-left: 10px;
+}
+
+.author__text-wrap {
+    display: flex;
+}
+
+.news__author-text {
+    margin: 0;
+}
+
+.author--black {
+    color: #000;
+}
+
+.fa-ellipsis-v {
+    font-size: 1.5rem;
 }
