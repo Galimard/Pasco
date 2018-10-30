@@ -418,7 +418,7 @@ html, body {
     margin: 0 0 15px;
     color: #000000;
     font-family: Montserrat, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -426,7 +426,7 @@ html, body {
 .news-desc__text {
     margin: 0;
     font-family: "Open Sans", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1.35rem;
     font-weight: 400;
 }
 
@@ -455,4 +455,16 @@ html, body {
 
 .fa-ellipsis-v {
     font-size: 1.5rem;
+}
+
+.news-col__item {
+    display: flex;
+}
+
+.news-desc__title__size {
+    font-size: 1.35rem;
+}
+
+.news-desc__text--size {
+    font-size: 1.2rem;
 }
