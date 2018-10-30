@@ -7,53 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div class="menu-wrap">        
-        <div class="top-menu">
-            <div class="template-width top-menu--flex">
-	           	<div class="top-menu__socials top-menu--flex">
-	                <a href="#"><i class="fab fa-facebook-f top-menu__socials--color top-menu__socials--hover"></i></a>
-	                <a href="#"><i class="fab fa-twitter top-menu__socials--color top-menu__socials--hover"></i></a>
-	                <a href="#"><i class="fab fa-pinterest-p top-menu__socials--color top-menu__socials--hover"></i></a>
-	                <a href="#"><i class="fab fa-google-plus-g top-menu__socials--color top-menu__socials--hover"></i></a>
-	                <a href="#"><i class="fab fa-behance top-menu__socials--color top-menu__socials--hover"></i></a>
-	                <a href="#"><i class="fab fa-dribbble top-menu__socials--color top-menu__socials--hover"></i></a>
-		        </div>
-		        <div class="top-menu__user top-menu--flex">
-		            <div class="top-menu__user-border top-menu--flex">
-		            	<a href="#" class="top-menu__sign-in"><i class="fas fa-user-circle"></i>Sign in</a>
-		            </div>
-		            <div class="top-menu__select-wrap top-menu--flex">
-		            	<i class="fas fa-globe"></i>
-			            <select name="" id="language" class="top-menu__language">
-			                <option selected>eng</option>
-			                <option>рус</option>		                
-			            </select>
-			            <i class="fas fa-angle-down top-menu__arrow"></i>
-		            </div>
-		        </div>
-		    </div>    
-        </div>
-        <div class="menu">
-            <div class="template-width top-menu--flex">
-	            <div class="logo"><a href="index.html" class="logo__link">Pasco</a></div>
-	            <ul class="menu-list top-menu--flex">
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Home<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Portfolio<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Blog<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Pages<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Shop<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Components<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	                <li class="menu-list__item"><a href="#" class="menu-list__link">Features<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
-	            </ul>
-	            <div class="user-icons">
-	                <a href="#"><i class="fas fa-search user-icons__border user-icons--padding user-icons__item"></i></a>
-	                <a href="#"><i class="far fa-heart user-icons__border user-icons--padding user-icons__item"></i></a>
-	                <a href="#"><i class="fas fa-shopping-cart user-icons--padding user-icons__item"></i></a>
-	            </div>
-            </div>
-        </div>
-    </div>
+<header class="header">
     <div class="slider">
     	<a href="#" class="slider__link slider__link--left"><i class="fas fa-angle-left slider__arrow"></i></a>
         <div class="text-slider">
@@ -72,216 +26,264 @@
         <a href="#" class="slider__link slider__link--right"><i class="fas fa-angle-right slider__arrow"></i></a>
     </div>
 </header>
-<main>
+<div class="menu-wrap">
+    <div class="top-menu">
+        <div class="template-width wrap-flex">
+            <div class="top-menu__socials wrap-flex">
+                <a href="#"><i class="fab fa-facebook-f top-menu__socials--color top-menu__socials--hover"></i></a>
+                <a href="#"><i class="fab fa-twitter top-menu__socials--color top-menu__socials--hover"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p top-menu__socials--color top-menu__socials--hover"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g top-menu__socials--color top-menu__socials--hover"></i></a>
+                <a href="#"><i class="fab fa-behance top-menu__socials--color top-menu__socials--hover"></i></a>
+                <a href="#"><i class="fab fa-dribbble top-menu__socials--color top-menu__socials--hover"></i></a>
+            </div>
+            <div class="top-menu__user wrap-flex">
+                <div class="top-menu__user-border wrap-flex">
+                    <a href="#" class="top-menu__sign-in"><i class="fas fa-user-circle"></i>Sign in</a>
+                </div>
+                <div class="top-menu__select-wrap wrap-flex">
+                    <i class="fas fa-globe"></i>
+                    <select name="" id="language" class="top-menu__language">
+                        <option selected>eng</option>
+                        <option>рус</option>
+                    </select>
+                    <i class="fas fa-angle-down top-menu__arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="template-width wrap-flex">
+            <div class="logo"><a href="index.html" class="logo__link">Pasco</a></div>
+            <ul class="menu-list wrap-flex">
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Home<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Portfolio<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Blog<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Pages<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Shop<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Components<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+                <li class="menu-list__item"><a href="#" class="menu-list__link menu__link">Features<i class="fas fa-angle-down menu-list__arrow"></i></a></li>
+            </ul>
+            <div class="user-icons">
+                <a href="#"><i class="fas fa-search user-icons__border user-icons--padding user-icons__item"></i></a>
+                <a href="#"><i class="far fa-heart user-icons__border user-icons--padding user-icons__item"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart user-icons--padding user-icons__item"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="content">
     <div class="sorting">
-        <div class="template-width">
-            <span>Sort blog</span>
-            <ul>
-                <li><a href="#">All</a></li>
-                <li><a href="#">Photography</a></li>
-                <li><a href="#">Lifestyle</a></li>
-                <li><a href="#">Trip</a></li>
-                <li><a href="#">Inspiration</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="articles">
-        <div class="news-big">
-            <video src="">video</video>
-            <div class="news-desc">
-                <h5>10 Things To Do To Change Your Life Forever</h5>
-                <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-            </div>
-            <div class="author">
-                <img src="" alt="">
-                <span>Henry Little</span>
-                <span>April 28, 2018 10:55</span>
-            </div>
-        </div>
-        <div class="news-col">
-            <div class="news-col-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-            <div class="news-col-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-            <div class="news-col-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-        </div>
-        <div class="news-row">
-            <div class="news-row-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-            <div class="news-row-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-            <div class="news-row-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-        </div>
-        <div class="news-row-big">
-            <div class="news-row-big-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-            <div class="news-row-big-item">
-                <img src="">video
-                <div class="news-desc">
-                    <h5>10 Things To Do To Change Your Life Forever</h5>
-                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-                </div>
-                <div class="author">
-                    <img src="" alt="">
-                    <span>Henry Little</span>
-                    <span>April 28, 2018 10:55</span>
-                </div>
-            </div>
-        </div>
-        <a href="#">More</a>
-    </div>
-    <div class="sidebar">
-        <input type="search">
-        <div class="menu-aside">
-            <h4>Categories</h4>
-            <ul>
-                <li><a href="#">Photography</a></li>
-                <li><a href="#">Illustration</a></li>
-                <li><a href="#">Graphic design</a></li>
-                <li><a href="#">Web design</a></li>
-                <li><a href="#">Videography</a></li>
-            </ul>
-            <ul>
-                <li>195</li>
-                <li>15</li>
-                <li>36</li>
-                <li>220</li>
-                <li>17</li>
-            </ul>
-        </div>
-        <div class="subscribe">
-            <h4>Sunscribe</h4>
-            <form action="">
-                <label>Name<input type="text"></label>
-                <label>Email<input type="email"></label>
-                <button type="submit">Subscribe</button>
-            </form>
-            <span>or</span>
-            <div class="socials">socials</div>
-        </div>
-        <div class="post-widget">
-            <div class="menu-post">
-                <ul>
-                    <li><a href="#">Recent post</a></li>
-                    <li><a href="#">Popular post</a></li>
+            <div class="wrap-flex template-width">
+                <span class="sorting__text">Sort blog:</span>
+                <ul class="wrap-flex sorting__menu">
+                    <li class="menu-list__item"><a href="#" class="menu-list__link sorting__link sorting__text sorting__link--active">All</a></li>
+                    <li class="menu-list__item"><a href="#" class="menu-list__link sorting__link sorting__text">Photography</a></li>
+                    <li class="menu-list__item"><a href="#" class="menu-list__link sorting__link sorting__text">Lifestyle</a></li>
+                    <li class="menu-list__item"><a href="#" class="menu-list__link sorting__link sorting__text">Trip</a></li>
+                    <li class="menu-list__item"><a href="#" class="menu-list__link sorting__link sorting__text">Inspiration</a></li>
                 </ul>
             </div>
-            <div class="post-wrap">
-                <div class="post-item">
+    </div>
+    <div class="wrap-flex template-width">
+        <div class="articles">
+            <div class="news-big">
+                <video src="video/videoplayback.mp4">video</video>
+                <div class="news-desc">
+                    <h5>10 Things To Do To Change Your Life Forever</h5>
+                    <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                </div>
+                <div class="author">
                     <img src="" alt="">
-                    <div class="post-item-text">
-                        <div class="post-item-text-top">
-                            <span>April 28, 2016</span><span>17</span>
-                        </div>
-                        <p>Duis commodo elit sed nisi molestie</p>
+                    <span>Henry Little</span>
+                    <span>April 28, 2018 10:55</span>
+                </div>
+            </div>
+            <div class="news-col">
+                <div class="news-col-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
                     </div>
                 </div>
-                <div class="post-item">
-                    <img src="" alt="">
-                    <div class="post-item-text">
-                        <div class="post-item-text-top">
-                            <span>April 28, 2016</span><span>17</span>
-                        </div>
-                        <p>Duis commodo elit sed nisi molestie</p>
+                <div class="news-col-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
                     </div>
                 </div>
-                <div class="post-item">
-                    <img src="" alt="">
-                    <div class="post-item-text">
-                        <div class="post-item-text-top">
-                            <span>April 28, 2016</span><span>17</span>
-                        </div>
-                        <p>Duis commodo elit sed nisi molestie</p>
+                <div class="news-col-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
                     </div>
-                </div>
-                <div class="post-item">
-                    <img src="" alt="">
-                    <div class="post-item-text">
-                        <div class="post-item-text-top">
-                            <span>April 28, 2016</span><span>17</span>
-                        </div>
-                        <p>Duis commodo elit sed nisi molestie</p>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
                     </div>
                 </div>
             </div>
+            <div class="news-row">
+                <div class="news-row-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
+                    </div>
+                </div>
+                <div class="news-row-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
+                    </div>
+                </div>
+                <div class="news-row-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-row-big">
+                <div class="news-row-big-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
+                    </div>
+                </div>
+                <div class="news-row-big-item">
+                    <img src="">video
+                    <div class="news-desc">
+                        <h5>10 Things To Do To Change Your Life Forever</h5>
+                        <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+                    </div>
+                    <div class="author">
+                        <img src="" alt="">
+                        <span>Henry Little</span>
+                        <span>April 28, 2018 10:55</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#">More</a>
         </div>
-        <div class="tags">
-            <h4>Tags</h4>
-            <div class="tags-wrap">
-                <a href="#">Photography</a><a href="#">Webdesign</a><a href="#">Youtube</a><a href="#">Envato</a><a href="#">Art</a><a href="#">Themefotest</a><a
-                    href="#">Illustration</a>
+        <div class="sidebar">
+            <input type="search">
+            <div class="menu-aside">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Illustration</a></li>
+                    <li><a href="#">Graphic design</a></li>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Videography</a></li>
+                </ul>
+                <ul>
+                    <li>195</li>
+                    <li>15</li>
+                    <li>36</li>
+                    <li>220</li>
+                    <li>17</li>
+                </ul>
+            </div>
+            <div class="subscribe">
+                <h4>Sunscribe</h4>
+                <form action="">
+                    <label>Name<input type="text"></label>
+                    <label>Email<input type="email"></label>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <span>or</span>
+                <div class="socials">socials</div>
+            </div>
+            <div class="post-widget">
+                <div class="menu-post">
+                    <ul>
+                        <li><a href="#">Recent post</a></li>
+                        <li><a href="#">Popular post</a></li>
+                    </ul>
+                </div>
+                <div class="post-wrap">
+                    <div class="post-item">
+                        <img src="" alt="">
+                        <div class="post-item-text">
+                            <div class="post-item-text-top">
+                                <span>April 28, 2016</span><span>17</span>
+                            </div>
+                            <p>Duis commodo elit sed nisi molestie</p>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="" alt="">
+                        <div class="post-item-text">
+                            <div class="post-item-text-top">
+                                <span>April 28, 2016</span><span>17</span>
+                            </div>
+                            <p>Duis commodo elit sed nisi molestie</p>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="" alt="">
+                        <div class="post-item-text">
+                            <div class="post-item-text-top">
+                                <span>April 28, 2016</span><span>17</span>
+                            </div>
+                            <p>Duis commodo elit sed nisi molestie</p>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="" alt="">
+                        <div class="post-item-text">
+                            <div class="post-item-text-top">
+                                <span>April 28, 2016</span><span>17</span>
+                            </div>
+                            <p>Duis commodo elit sed nisi molestie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tags">
+                <h4>Tags</h4>
+                <div class="tags-wrap">
+                    <a href="#">Photography</a><a href="#">Webdesign</a><a href="#">Youtube</a><a href="#">Envato</a><a href="#">Art</a><a href="#">Themefotest</a><a
+                        href="#">Illustration</a>
+                </div>
             </div>
         </div>
     </div>
