@@ -367,8 +367,13 @@ html, body {
 	text-decoration: underline;
 }
 
+.content__bg {
+    background-color: #f5f5f5;
+}
+
 .sorting {
-	box-shadow: 0 1px 0 #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
 }
 
 .sorting__text {
@@ -408,7 +413,7 @@ html, body {
     align-items: normal;
 }
 
-.articles {
+.articles, .sidebar {
     padding: 30px 40px 0 0;
 }
 
@@ -520,5 +525,9 @@ html, body {
 
 .articles__btn:hover .articles__arrow-btn, .articles__btn:active .articles__arrow-btn {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 3px 0 3px rgba(0, 0, 0, 0.12);
+}
+
+.sidebar {
+    background-color: #ffffff;
 }
 
