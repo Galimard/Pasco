@@ -488,9 +488,33 @@ html, body {
     justify-content: space-between;
 }
 
-.articles__button {
+.articles__btn {
+    display: block;
+    margin: 60px 0;
     color: #303f9f;
     font-family: Montserrat, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none;
+    text-align: right;
 }
+
+.articles__arrow-btn {
+    margin-left: 5px;
+    width: 42px;
+    height: 42px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    border-radius: 50px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.articles__btn:hover, .articles__btn:active {
+    text-decoration: underline;
+}
+
+.articles__btn:hover .articles__arrow-btn, .articles__btn:active .articles__arrow-btn {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 3px 0 3px rgba(0, 0, 0, 0.12);
+}
+
