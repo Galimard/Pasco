@@ -170,10 +170,10 @@ html, body {
 
 .menu__link:hover .menu-list__arrow,
 .menu__link:active .menu-list__arrow {
-	-webkit-transform: rotate(-90deg) translateX(-4px);
-	-ms-transform: rotate(-90deg) translateX(-4px);
-	-o-transform: rotate(-90deg) translateX(-4px);
-	transform: rotate(-90deg) translateX(-4px);	
+	-webkit-transform: rotate(-90deg) translate(-4px, 4px);
+	-ms-transform: rotate(-90deg) translate(-4px, 4px);
+	-o-transform: rotate(-90deg) translate(-4px, 4px);
+	transform: rotate(-90deg) translate(-4px, 4px);
 	-webkit-transition: transform 0.3s;
 	-o-transition: transform 0.3s;
 	transition: transform 0.3s;
@@ -614,3 +614,81 @@ html, body {
 .sidebar__menu-num {
     font-weight: 700;
 }
+
+.subscribe {
+    margin-bottom: 60px;
+}
+
+.subscribe__form {
+    padding-top: 15px;
+}
+
+.subscribe__text {
+    color: #000000;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.subscribe__input {
+    padding: 15px;
+    width: 285px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.subscribe__btn {
+    border: none;
+    width: 100%;
+ }
+
+.button--square {
+    border-radius: 4px;
+}
+
+.subscribe__border {
+    width: 120px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.post-widget__menu {
+    display: flex;
+    padding: 0;
+}
+
+.post-widget__item {
+    width: 56%;
+}
+
+.post-widget__link {
+    display: block;
+    padding: 12px;
+    border: 1px solid #3f51b5;
+    background: #ffffff;
+    color: #3f51b5;
+    border-radius: 4px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    text-align: center;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -ms-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.post-widget__link--active,
+.post-widget__link:hover {
+    display: block;
+    padding: 12px;
+    background-color: #3f51b5;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    text-align: center;
+}
+
