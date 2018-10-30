@@ -408,10 +408,14 @@ html, body {
     padding: 30px 40px 40px 0;
 }
 
+.news--margin {
+    margin-bottom: 20px;
+}
+
 .news-desc,
 .news__author {
     padding: 15px 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .news-desc__title {
@@ -443,6 +447,7 @@ html, body {
 
 .author__text-wrap {
     display: flex;
+    align-items: center;
 }
 
 .news__author-text {
@@ -457,14 +462,35 @@ html, body {
     font-size: 1.5rem;
 }
 
+.author__link {
+    color: #000;
+}
+
 .news-col__item {
     display: flex;
 }
 
-.news-desc__title__size {
+.news-col--padding {
+    padding: 10px 20px;
+}
+
+.news-desc__title--size {
     font-size: 1.35rem;
 }
 
 .news-desc__text--size {
     font-size: 1.2rem;
+}
+
+.news-row,
+.news-row-big {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles__button {
+    color: #303f9f;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
