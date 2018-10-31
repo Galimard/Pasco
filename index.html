@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Pasco</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="header">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="top-menu__select-wrap wrap-flex">
                     <i class="fas fa-globe"></i>
-                    <select name="" id="language" class="top-menu__language">
+                    <select name="change-language" id="language" title="language" class="top-menu__language">
                         <option selected>eng</option>
                         <option>рус</option>
                     </select>
@@ -88,7 +88,7 @@
     <div class="wrap-flex template-width content--flex">
         <div class="articles">
             <div class="news-big news--margin news__item--bg">
-                <video src="video/videoplayback.mp4" poster="img/photo1.jpg" width="100%" controls class="video news-big__video">video</video>
+                <video src="video/videoplayback.mp4" poster="img/photo1.jpg" width="800" controls class="video news-big__video">video</video>
                 <div class="news-desc news-big__desc">
                     <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
                     <p class="news-desc__text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
@@ -106,7 +106,7 @@
             </div>
             <div class="news-col news--margin">
                 <div class="news-col__item news--margin news__item--bg">
-                    <img src="img/photo2.jpg">
+                    <img src="img/photo2.jpg" alt="photo">
                     <div class="news-col__item--flex">
                         <div class="news-desc news-col--padding">
                             <h5 class="news-desc__title news-desc__title__size">10 Things To Do To Change Your Life Forever</h5>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="news-col__item news--margin news__item--bg">
-                    <img src="img/photo3.jpg">
+                    <img src="img/photo3.jpg" alt="photo">
                     <div class="news-col__item--flex">
                         <div class="news-desc news-col--padding">
                             <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="news-col__item news--margin news__item--bg">
-                    <img src="img/photo4.jpg">
+                    <img src="img/photo4.jpg" alt="photo">
                     <div class="news-col__item--flex">
                         <div class="news-desc news-col--padding">
                             <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
@@ -165,7 +165,7 @@
             </div>
             <div class="news-row news--margin">
                 <div class="news-row__item news__item--bg">
-                    <img src="img/photo5.jpg">
+                    <img src="img/photo5.jpg" alt="photo">
                     <div class="news-desc">
                         <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
                         <p class="news-desc__text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
@@ -182,7 +182,7 @@
                     </div>
                 </div>
                 <div class="news-row__item news__item--bg">
-                    <img src="img/photo6.jpg">
+                    <img src="img/photo6.jpg" alt="photo">
                     <div class="news-desc">
                         <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
                         <p class="news-desc__text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
@@ -199,7 +199,7 @@
                     </div>
                 </div>
                 <div class="news-row__item news__item--bg">
-                    <img src="img/photo7.jpg">
+                    <img src="img/photo7.jpg" alt="photo">
                     <div class="news-desc">
                         <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
                         <p class="news-desc__text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
@@ -218,7 +218,7 @@
             </div>
             <div class="news-row-big">
                 <div class="news-row-big__item news__item--bg">
-                    <img src="img/photo8.jpg">
+                    <img src="img/photo8.jpg" alt="photo">
                     <div class="news-desc">
                         <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
                         <p class="news-desc__text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
@@ -235,7 +235,7 @@
                     </div>
                 </div>
                 <div class="news-row-big__item news__item--bg">
-                    <img src="img/photo9.jpg">
+                    <img src="img/photo9.jpg" alt="photo">
                     <div class="news-desc">
                         <h5 class="news-desc__title">10 Things To Do To Change Your Life Forever</h5>
                         <p class="news-desc__text">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
@@ -271,7 +271,7 @@
             </div>
             <div class="subscribe">
                 <h4 class="sidebar__heading">Subscribe</h4>
-                <form action="" class="form subscribe__form">
+                <form action="#" class="form subscribe__form">
                     <label class="subscribe__text">Name<input type="text" placeholder="Igor Ten" class="subscribe__input subscribe__text"></label><br>
                     <label class="subscribe__text">Email<input type="email" placeholder="email@address.com" class="subscribe__input subscribe__text"></label>
                     <button type="submit" class="button button--blue subscribe__btn button--square">Subscribe</button>
@@ -340,14 +340,13 @@
         </div>
     </div>
     <div class="gallery">
-        <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img
-            src="" alt=""><img src="" alt=""><img src="" alt="">
+        <img src="img/photo14.jpg" alt="photo"><img src="img/photo15.jpg" alt="photo"><img src="img/photo16.jpg" alt="photo"><img src="img/photo17.jpg" alt="photo"><img src="img/photo18.jpg" alt="photo"><img src="img/photo19.jpg" alt="photo"><img src="img/photo20.jpg" alt="photo"><img src="img/photo21.jpg" alt="photo">
     </div>
     <div class="subscribe-row">
         <div class="template-width">
             <h3>Subscribe to our newsletter</h3>
-            <form action="">
-                <input type="email">
+            <form action="#">
+                <input type="email" title="email">
                 <button type="submit">Subscribe</button>
             </form>
         </div>
@@ -420,12 +419,12 @@
             <div class="footer-col">
                 <h4>Flickr widget</h4>
                 <div class="img">
-                    <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+                    <img src="img/photo22.jpg" alt="photo"><img src="img/photo23.jpg" alt="photo"><img src="img/photo24.jpg" alt="photo"><img src="img/photo25.jpg" alt="photo"><img src="img/photo26.jpg" alt="photo"><img src="img/photo27.jpg" alt="photo"><img src="img/photo28.jpg" alt="photo"><img src="img/photo22.jpg" alt="photo"><img src="img/photo23.jpg" alt="photo">
                 </div>
             </div>
             <div class="footer-col">
                 <h4>news letter</h4>
-                <form action="">
+                <form action="#">
                     <input type="text" placeholder="name">
                     <input type="email" placeholder="email address">
                     <input type="text" placeholder="Message">
@@ -447,9 +446,9 @@
                     <li><a href="#">Features</a></li>
                 </ul>
                 <input type="search" placeholder="Search">
-                <select name="" id="">
-                    <option value="eng"></option>
-                    <option value="рус"></option>
+                <select name="language" id="language-s" title="language">
+                    <option>Eng</option>
+                    <option>Рус</option>
                 </select>
             </div>
         </div>
